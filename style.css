@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* width: 1600px; */
+  height: 837px;
+  background: #fff8f3;
+  background-image: url("./images/developer.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 230px; 
+}
+
+header > nav > h3 {
+  color: var(--Dark-01, #181818);
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+header > nav > h3 > span {
+  color: #fd6e0a;
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+header > nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+header > nav > ul > li {
+  list-style-type: none;
+}
+
+header > nav > ul > li > a {
+  text-decoration: none;
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn-primary{
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    color: var(--White-Color, #FFF);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
